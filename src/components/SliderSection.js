@@ -49,23 +49,13 @@ const Contents = styled.div`
     line-height: 1.6em;
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 1440px) {
     padding: 0 5%;
-    height: 50vh;
-    margin-top: 16%;
+    height: 80vh;
+    margin-top: 6%;
 
     h2{
-      font-size:1.5rem;
-    }
-  }
-
-  @media (max-width: 768px) {
-    padding: 0 5%;
-    height: 60vh;
-    margin-top: 9%;
-
-    h2{
-      font-size:2rem;
+      font-size:2.5rem;
     }
   }
 
@@ -79,15 +69,35 @@ const Contents = styled.div`
     }
   }
 
-  @media (max-width: 1440px) {
+  @media (max-width: 768px) {
     padding: 0 5%;
-    height: 80vh;
-    margin-top: 6%;
+    height: 60vh;
+    margin-top: 9%;
 
     h2{
-      font-size:2.5rem;
+      font-size:2rem;
     }
   }
+
+  @media (max-width: 425px) {
+    padding: 0 5%;
+    height: 40vh;
+    margin-top: 16%;
+
+    h2{
+      font-size:1.5rem;
+    }
+
+    p{
+      font-size:11px;
+    }
+  }
+
+  
+
+  
+
+  
   }
 `
 
