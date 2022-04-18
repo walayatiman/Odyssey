@@ -90,7 +90,7 @@ const ServiceItems = styled(motion.div)`
     width: 48px;
     height: 48px;
     object-fit: contain;
-    z-index: 2;
+    z-index: 1;
     position: relative;
   }
 
