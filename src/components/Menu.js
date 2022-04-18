@@ -10,7 +10,8 @@ const MobileMenu = styled(motion.ul)`
   margin: 0;
   right: 0;
   display: none;
-  background-color: #1e1e1e;
+  background-color: #1b4994;
+  z-index: 1000;
   padding-top: 20%;
   font-size: clamp(1.5rem, 0.775rem + 0.1875vw, 1rem);
   position: fixed;
@@ -23,7 +24,7 @@ const MobileMenu = styled(motion.ul)`
 const Hamburger = styled.button`
   display: block;
   position: relative;
-  z-index: 1;
+  z-index: 10001;
   user-select: none;
   appearance: none;
   border: none;
@@ -203,6 +204,7 @@ const Menu = () => {
 
         <MobileMenu
           animate={isOpen ? "open" : "closed"}
+          initial={false}
           variants={variants}
           transition={{
             ease: "easeInOut",
