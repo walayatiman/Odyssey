@@ -51,6 +51,18 @@ const Branched = styled(motion.div)`
     font-size: 14px;
     color: #b8b8b8;
   }
+
+  @media (max-width: 1024px) {
+    flex: 0 0 29%;
+  }
+
+  @media (max-width: 768px) {
+    flex: 0 0 45%;
+  }
+
+  @media (max-width: 425px) {
+    flex: 0 0 100%;
+  }
 `
 
 const BranchContainer = styled.div`
