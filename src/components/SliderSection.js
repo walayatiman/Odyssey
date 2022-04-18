@@ -62,7 +62,7 @@ const Contents = styled.div`
   @media (max-width: 1024px) {
     padding: 0 5%;
     height: 80vh;
-    margin-top: 9%;
+    margin-top: 8%;
 
     h2{
       font-size:2.5rem;
@@ -72,7 +72,7 @@ const Contents = styled.div`
   @media (max-width: 768px) {
     padding: 0 5%;
     height: 60vh;
-    margin-top: 9%;
+    margin-top: 8%;
 
     h2{
       font-size:2rem;

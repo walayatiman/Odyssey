@@ -14,6 +14,10 @@ const MobileMenu = styled(motion.ul)`
   padding-top: 20%;
   font-size: clamp(1.5rem, 0.775rem + 0.1875vw, 1rem);
   position: fixed;
+
+  @media (max-width: 425px) {
+    width: 100%;
+  }
 `
 
 const Hamburger = styled.button`
@@ -126,15 +130,23 @@ const HeaderContainer = styled.nav`
       display: block;
     }
   }
+
+  @media (max-width: 425px) {
+    padding: 0 5%;
+  }
 `
 
 const Header = styled.header`
   width: 100%;
-  background-color: #222;
+  background-color: #2875b9;
   padding: 1rem;
   position: absolute;
   z-index: 2;
   top: 0;
+
+  @media (max-width: 425px) {
+    padding: 5%;
+  }
 `
 
 const variants = {
@@ -145,7 +157,7 @@ const variants = {
 const Menu = () => {
   const query = useStaticQuery(graphql`
     query logoquery {
-      file(relativePath: { eq: "odyssey.svg" }) {
+      file(relativePath: { eq: "odyssey.jpg" }) {
         publicURL
       }
     }
