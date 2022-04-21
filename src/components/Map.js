@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import styled from "styled-components"
 
 const MapContainer = styled.div`
-  background-color: #333333;
+  background-color: #1b4994;
 `
 
 const Map = () => {

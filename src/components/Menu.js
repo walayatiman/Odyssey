@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import styled from "styled-components"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import { motion } from "framer-motion"
 
 const MobileMenu = styled(motion.ul)`
@@ -180,7 +180,7 @@ const Menu = () => {
 
         <DesktopMenu>
           <li>
-            <a href="/#home-section">Home</a>
+            <Link to="/index">Home</Link>
           </li>
           <li>
             <a href="/#services-section">Services</a>
@@ -214,7 +214,7 @@ const Menu = () => {
           }}
         >
           <li>
-            <a href="#home-section">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <a href="#services-section">Services</a>

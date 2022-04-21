@@ -4,12 +4,10 @@ import { useStaticQuery, graphql } from "gatsby"
 import { motion } from "framer-motion"
 
 const Service = styled.div`
-  background-color: #1e1e1e;
-  margin-top: 85px;
-
   p {
     font-size: 0.8125rem;
     font-size: clamp(0.8125rem, 0.775rem + 0.1875vw, 1rem);
+    color: #6b7280;
   }
 
   @media (max-width: 425px) {
@@ -73,7 +71,7 @@ const ServiceItems = styled(motion.div)`
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: #333;
+    background: #2875b9;
     z-index: 0;
     top: -10px;
   }
@@ -83,7 +81,7 @@ const ServiceItems = styled(motion.div)`
     font-weight: 500;
     margin-bottom: 15px;
     text-transform: uppercase;
-    color: #fff;
+    color: #ff9c2d;
   }
 
   img {

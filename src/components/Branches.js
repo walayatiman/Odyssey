@@ -39,7 +39,7 @@ const Branch = styled.div`
 
 const Branched = styled(motion.div)`
   flex: 0 0 30.5%;
-  background-color: #333;
+  background-color: #2875b9;
   padding: 30px;
 
   strong {
@@ -49,7 +49,7 @@ const Branched = styled(motion.div)`
   p {
     margin: 0;
     font-size: 14px;
-    color: #b8b8b8;
+    color: #d1d5db;
   }
 
   @media (max-width: 1024px) {

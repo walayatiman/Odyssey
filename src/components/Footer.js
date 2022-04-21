@@ -11,7 +11,7 @@ import { motion } from "framer-motion"
 import { Link } from "gatsby"
 
 const FootParent = styled.footer`
-  background-color: #333333;
+  background-color: #1b4994;
 `
 const Foot = styled.div`
   max-width: 1140px;
@@ -32,7 +32,7 @@ const Foot = styled.div`
   }
 
   p {
-    color: #939393;
+    color: #e5e7eb;
     font-size: 0.8125rem;
     font-size: clamp(0.8125rem, 0.775rem + 0.1875vw, 1rem);
   }
@@ -99,7 +99,7 @@ const About = styled(motion.div)`
   ul {
     padding: 0;
     li {
-      color: #939393;
+      color: #e5e7eb;
       font-size: 14px;
       list-style: none;
     }

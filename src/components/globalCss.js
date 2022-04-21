@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background-color: #1e1e1e;
+    background-color: #efefef;
     font-family: "Rubik", sans-serif;
     line-height: 1.7;
   }
