@@ -35,7 +35,7 @@ const Contents = styled.div`
   margin: 0 auto;
   text-align: center;
 
-  h2 {
+  h1, h2 {
     font-size: 72px;
     line-height: 1.2em;
     font-weight: normal;
@@ -161,9 +161,9 @@ const SliderSection = () => {
             className={`bgImage`}
           >
             <Contents>
-              <h2 className="swiper-title">
+              <h1 className="swiper-title">
                 Odyssey Driving School in Cagayan de Oro, Philippines
-              </h2>
+              </h1>
               <p className="swiper-subtitle">
                 Provides superior, quality-oriented, and comprehensive education
                 to road users.

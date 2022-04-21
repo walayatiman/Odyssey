@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "Odyssey Driving School",
     titleTemplate: "%s · The Real Hero",
-    description: "For a lifetime of safe driving",
+    description:
+      "Odyssey Driving School in Cagayan de Oro, Philippines provides superior, quality-oriented, and comprehensive education to road users",
     url: "https://www.odysseydrivingschool.com", // No trailing slash allowed!
     siteUrl: "https://www.odysseydrivingschool.com",
   },
